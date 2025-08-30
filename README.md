@@ -34,12 +34,13 @@ A comprehensive health coaching application that uses **local AI** (via [Ollama]
    ```bash
    git clone https://github.com/your-username/health-coach-app.git
 ```
+   ```bash
    cd health-coach-app
-
+```
 # 2. Install the required Python packages:
-
+```bash
 pip install -r requirements.txt
-
+```
 
 # 3. Install Ollama (if not already installed):
 
@@ -52,9 +53,9 @@ curl -fsSL https://ollama.ai/install.sh | sh
 
 
 # 4. Download the Llama 3 model:
-
+```bash
 ollama pull llama3
-
+```
 
 
 
@@ -63,9 +64,9 @@ ollama pull llama3
 # ▶️ Usage
 
 1. Start the application:
-
+```bash
 streamlit run app.py
-
+```
 
 2. Open your browser at the URL shown in the terminal (default: http://localhost:8501)
 
@@ -164,9 +165,9 @@ database.py → Extend the schema
 # 🛠️ Troubleshooting
 
 Ollama not found → Ensure installed and running:
-
+```bash
 ollama --version
-
+```
 Llama 3 model missing → Run:
 
 ollama pull llama3
