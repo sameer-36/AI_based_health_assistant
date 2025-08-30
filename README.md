@@ -33,6 +33,7 @@ A comprehensive health coaching application that uses **local AI** (via [Ollama]
 # 1. Clone or download this project:
    ```bash
    git clone https://github.com/your-username/health-coach-app.git
+```
    cd health-coach-app
 
 # 2. Install the required Python packages:
