@@ -98,7 +98,7 @@ Navigate between tabs
 ---
 
 # 📂 Project Structure
-
+```bash
 health-coach-app/
 ├── app.py              # Main Streamlit application
 ├── database.py         # Database models and initialization
@@ -106,7 +106,7 @@ health-coach-app/
 ├── utils.py            # Utility functions for data visualization
 ├── requirements.txt    # Python dependencies
 └── README.md           # Documentation
-
+```
 
 ---
 
